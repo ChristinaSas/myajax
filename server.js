@@ -65,6 +65,5 @@ app.post('/rowIndex',function(req,res){
 	res.send('deleteuser');
 })
 
-
-app.listen(8080);
+app.listen(process.env.PORT||8080);
 console.log('Run Server!');
